@@ -1,0 +1,16 @@
+.container {
+    margin: 1.5em;
+    text-align: center;
+    border: 5px double #1C6EA4;
+    padding: 20px;
+  
+    
+}
+  .result {
+    margin-top: 1em;
+    text-align: start;
+    text-rendering: auto; 
+    
+  }
+ 
+  

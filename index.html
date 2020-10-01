@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="index.js" defer></script>
+    </head>
+  <body>
+    <label><center><b>DEV</b></center></label>
+    <p>An Extension which pulls out articles based on tags</p>
+    <div class="container">
+    <form  id="form-data">
+      <label for="tags">Select a tag:</label><br><br>
+        <select name="tags" id="tags">
+          <option disabled selected value> -- select an option -- </option>
+          <option value="python">Python</option>
+          <option value="javascript">Javascript</option>
+          <option value="tutorial">Tutorial</option>
+          <option value="productivity">Productivity</option>
+          <option value="discuss">Discuss</option>
+          <option value="beginners">Beginners</option>
+          <option value="archlinux">archlinux</option>
+          <option value="webdev">Webdev</option>
+          <option value="android">Android</option>
+          <option value="react">React</option>
+        </select><br><br>
+      <button type="submit" class="seach-btn">Submit</button>
+    </form>
+    <div class="result">
+     </div>
+    </div>
+  </div>
+  </body>
+</html>
